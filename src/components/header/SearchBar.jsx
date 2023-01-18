@@ -8,7 +8,7 @@ export default function SearchBar(){
             <Spacer />
             <FaSearch size="20px"  />
             <Input w="100px" h="20px" border="none" placeholder="SEARCH" m="0 10px"/>
-            <FaCartPlus size="30px" />
+            <FaCartPlus size="30px" cursor="pointer" />
             <Text m="0 10px" fontWeight={700}>CART</Text>
         </Flex>
     </Box>
